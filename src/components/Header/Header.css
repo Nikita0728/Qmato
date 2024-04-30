@@ -1,0 +1,17 @@
+.header
+{
+    background: url('../../assets/header_img.png') no-repeat;
+   margin: 40px auto;
+   height: 100vh;
+   background-size:cover;
+   position: relative;
+   padding: 0 10%;
+
+}
+.header-content{
+    position :absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: 50%;
+}
