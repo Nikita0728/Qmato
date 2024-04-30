@@ -1,14 +1,25 @@
 import './App.css'
 import { Navbars } from './components/Navbar/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Routes } from 'react-router-dom';
+import { Cart } from './pages/Cart/Cart';
 import { Home } from './pages/Home/Home';
+import {Placeorder} from './pages/Placeorder/Placeorder'
 
 function App() {
 
   return (
     <>
      <Navbars/>
-     <Home/>
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/cart' element ={<Cart/>}/>
+      <Route path='/order' element ={<Placeorder/>}/>
+
+
+
+
+     </Routes>
     </>
   )
 }
