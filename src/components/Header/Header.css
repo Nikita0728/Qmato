@@ -6,6 +6,7 @@
    background-size:cover;
    position: relative;
    padding: 0 10%;
+   
 
 }
 .header-content{
@@ -14,4 +15,23 @@
     flex-direction: column;
     align-items: start;
     max-width: 50%;
+    bottom: 10px;
+    animation: fadeIn 3s;
+}
+.header-content h2{
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+.header-content p{
+    font-size: 20px;
+    color:white;
+}
+.header-content button{
+    font-weight: 500;
+    color: #575757;
+    width:150px;
+    height: 50px;
+    border-radius: 800px;
+    border-style: none;
+
 }
