@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Cart } from './pages/Cart/Cart';
 import { Home } from './pages/Home/Home';
 import {Placeorder} from './pages/Placeorder/Placeorder'
+import { ExploreMenu } from './components/ExploreMenu/ExploreMenu';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/cart' element ={<Cart/>}/>
       <Route path='/order' element ={<Placeorder/>}/>
+      <Route path='/menu'  element={<ExploreMenu/>}/>
 
 
 
